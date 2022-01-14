@@ -1,0 +1,17 @@
+[package]
+name = "dexter_coin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "dexter_coin_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "dxc"
+path = "src/main.rs"
+
+[dependencies]
+hex = "0.4.3"
